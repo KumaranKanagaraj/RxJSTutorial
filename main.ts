@@ -41,7 +41,7 @@ class MouseCapture{
         
     }
 }
-
+// https://developer.mozilla.org/en-US/docs/Web/CSS/font
 class ImageEditor{
     
     addTextToImage(){
@@ -52,14 +52,18 @@ class ImageEditor{
             color:'#000000',
             type:'origin',
         }).
-            text('<b>Hi dude</b>Samle Okay<s>@Coolbro</s>',{
+            text('<b>Hi dude</b>Sample Okay va <s>@Coolbro</s>',{
             width:'500',
             align:'left',
             largeStyle:{
-                color:'red'
+                color:'red',
+                font:'italic  60px / 20px arial, sans-serif',
+                lineheight: ''
             },
             normalStyle:{
-                color:'blue'
+                color:'blue',
+                font: 'small-caps bold 24px/1 sans-serif',
+                lineheight: ''
             },
             smallStyle:{
                 color:'yellow'
